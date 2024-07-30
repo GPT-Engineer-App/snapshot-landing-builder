@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, HeartFilled, ArrowRight } from 'lucide-react';
+import { Heart, ArrowRight } from 'lucide-react';
 
 const Index = () => {
   return (
