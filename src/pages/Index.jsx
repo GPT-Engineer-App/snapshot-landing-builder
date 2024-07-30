@@ -35,7 +35,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8">It starts with an AI software engineer.</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {['For Everyone', 'For Developers', 'For Agencies'].map((title, index) => (
-              <div key={index} className="bg-gray-900 p-6 rounded-lg">
+              <div key={index} className="bg-black border border-gray-700 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-4 flex justify-between items-center">
                   {title} <ArrowRight className="w-5 h-5" />
                 </h3>
