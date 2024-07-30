@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, ArrowRight } from 'lucide-react';
+import { HeartFilled, ArrowRight } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -7,7 +7,7 @@ const Index = () => {
       {/* Header */}
       <header className="flex justify-between items-center p-4">
         <div className="flex items-center">
-          <Heart className="w-6 h-6 mr-2" />
+          <HeartFilled className="w-6 h-6 mr-2 text-red-500" />
           <span className="text-xl font-bold">lovable</span>
         </div>
         <nav>
@@ -55,7 +55,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="flex items-center mb-4 md:mb-0">
-              <Heart className="w-6 h-6 mr-2" />
+              <HeartFilled className="w-6 h-6 mr-2 text-red-500" />
               <span className="text-xl font-bold text-white">lovable</span>
             </div>
             <div className="grid grid-cols-2 gap-8">
